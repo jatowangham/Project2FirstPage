@@ -5,33 +5,33 @@
 }
 
 /* header------ */
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 0px;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
 }
 
-.head_logo{
+.head_logo {
   text-align: right;
 }
 
-.head_logo h1{
+.head_logo h1 {
   font-size: 45px;
   font-weight: bolder;
   color: #074870;
 }
 
-.head_logo{
+.head_logo {
   color: #074870;
   font-weight: bolder;
 }
 
-.nav{
+.nav {
   margin: 0px 26px;
 }
 
-.nav ul{
+.nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,23 +43,23 @@
   position: relative;
   margin: 10px;
 }
-.nav ul li a{
+.nav ul li a {
   text-decoration: none;
   color: black;
   font-size: 17px;
   font-weight: bold;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
   text-decoration: underline;
   color: #074870;
 }
 
-.dropdown{
+.dropdown {
   display: none;
 }
 
-.nav ul li:hover .dropdown{
+.nav ul li:hover .dropdown {
   position: absolute;
   display: block;
   left: 0;
@@ -68,32 +68,32 @@
   z-index: 100;
 }
 
-.dropdown ul{
+.dropdown ul {
   display: block;
   border-top: 2px solid black;
 }
 
-.dropdown ul li{
+.dropdown ul li {
   width: 150px;
   border-bottom: 1px solid rgb(209, 209, 209);
   margin: 0;
   padding: 15px 20px;
 }
-.dropdown ul li a{
+.dropdown ul li a {
   font-weight: 200;
 }
 
-.social{
+.social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.social a{
+.social a {
   text-decoration: none;
   margin: 0px 3px;
 }
 
-.social button{
+.social button {
   font-size: 25px;
   margin-top: 0;
   margin-left: 20px;
@@ -102,11 +102,9 @@
   cursor: pointer;
 }
 
-.social img{
-    width: 20px;
+.social img {
+  width: 20px;
 }
-
-
 
 /* mainpage---------- */
 .main_page {
@@ -285,147 +283,142 @@
   width: 100%;
 }
 
-
 /* read----- */
-.reads{
-    width: 73%;
-    margin: 10px auto;
-    border-top: 1px solid rgb(205, 205, 205);
-    border-bottom: 1px solid rgb(205, 205, 205);
-    padding: 60px 0px;
+.reads {
+  width: 73%;
+  margin: 10px auto;
+  border-top: 1px solid rgb(205, 205, 205);
+  border-bottom: 1px solid rgb(205, 205, 205);
+  padding: 60px 0px;
 }
 
-.reads h1{
-    text-align: center;
-    font-weight: bolder;
-    margin-bottom: 60px;
-    font-size: 40px;
+.reads h1 {
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 60px;
+  font-size: 40px;
 }
 
-.most{
-   display: flex;
-   justify-content: space-between;
-   margin-bottom: 50px;
+.most {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
-.most h2{
-    text-align: center;
-    margin-bottom: 40px;
-    font-weight: bolder;
-    font-size: 26px;
+.most h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  font-size: 26px;
 }
 
-.most_paragraph{
-    display: flex;
-    flex-direction: column;
+.most_paragraph {
+  display: flex;
+  flex-direction: column;
 }
 
-.most > * p{
-    line-height: 2;
-    font-size: 23px;
-    color: rgb(104, 104, 104);
-    text-transform: capitalize;
+.most > * p {
+  line-height: 2;
+  font-size: 23px;
+  color: rgb(104, 104, 104);
+  text-transform: capitalize;
 }
 
-.most a{
-    text-decoration: none;
+.most a {
+  text-decoration: none;
 }
 
-.most p:hover{
-    color: orange;
+.most p:hover {
+  color: orange;
 }
 
-.view{
-    margin-right: 30px;
+.view {
+  margin-right: 30px;
 }
-
 
 /* post---- */
-.post{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.post h1{
-    font-size: 30px;
-    font-weight: bolder;
-    margin-bottom: 30px;
+.post h1 {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 30px;
 }
 
-.post > p{
-    text-transform: capitalize;
-    line-height: 2;
-    font-size: 23px;
-    color: rgb(104, 104, 104);
+.post > p {
+  text-transform: capitalize;
+  line-height: 2;
+  font-size: 23px;
+  color: rgb(104, 104, 104);
 }
 
-.post p:hover{
+.post p:hover {
   color: rgb(255, 94, 0);
 }
 
-
 /* seen------- */
-.seen{
-    width: 73%;
-    margin: auto;
-    margin-top: 10px;
-    border-top: 1px solid rgb(205, 205, 205);
-    padding: 60px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.seen {
+  width: 73%;
+  margin: auto;
+  margin-top: 10px;
+  border-top: 1px solid rgb(205, 205, 205);
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.seen p{
-    font-size: 40px;
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 35px;
+.seen p {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 35px;
 }
-
 
 /* footer---------- */
-footer{
-    text-align: center;
-    background: #021b2b;;
-    padding: 40px 0px;
+footer {
+  text-align: center;
+  background: #021b2b;
+  padding: 40px 0px;
 }
 
-footer > p{
-    line-height: 1.5;
-    color: gray;
+footer > p {
+  line-height: 1.5;
+  color: gray;
 }
 
-.footer_p:first-child{
-    font-size: 20px;
-    margin-bottom: 15px;
+.footer_p:first-child {
+  font-size: 20px;
+  margin-bottom: 15px;
 }
-.footer_p:nth-child(2){
-    font-size: 20px;
-    color: rgb(208, 208, 208);
-    cursor: pointer;
+.footer_p:nth-child(2) {
+  font-size: 20px;
+  color: rgb(208, 208, 208);
+  cursor: pointer;
 }
-
 
 /* media-queries------- */
-@media (max-width: 1100px){
-  .header{
+@media (max-width: 1100px) {
+  .header {
     display: flex;
     flex-direction: column;
     background-color: rgb(229, 229, 229);
   }
 
-  .head_logo{
+  .head_logo {
     text-align: center;
     margin-bottom: 20px;
   }
 }
 
-@media (max-width: 720px){
-  .wellcome{
+@media (max-width: 720px) {
+  .wellcome {
     position: absolute;
     margin: 50px auto;
     width: 100%;
@@ -442,7 +435,7 @@ footer > p{
     font-size: 18px;
   }
 
-  .buttonn{
+  .buttonn {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -450,47 +443,84 @@ footer > p{
     gap: 20px;
     padding-bottom: 10px;
   }
-  .btn{
+  .btn {
     width: 80%;
   }
 
-  .sub_subscribe{
+  .sub_subscribe {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .sub_subscribe input{
+  .sub_subscribe input {
     width: 100%;
   }
 
-  .visit{
+  .visit {
     display: block;
   }
-  .visit1{
+  .visit1 {
     margin-bottom: 30px;
   }
 
-  .most{
+  .most {
     display: block;
   }
 
-  .para{
+  .para {
     margin-top: 50px;
   }
 
-  .seen img{
+  .seen img {
     width: 350px;
   }
 }
 
-@media(max-width: 565px){
-  .head_logo h1{
+@media (max-width: 565px) {
+  .head_logo h1 {
     font-size: 30px;
   }
-  .nav ul li{
-    margin: 5px;
+  .nav ul li {
+    margin: 2px;
   }
-  .nav ul li a{
+  .nav ul li a {
+    font-size: 10px;
+  }
+
+  .most > * p {
     font-size: 15px;
+  }
+
+  .post > p {
+    font-size: 15px;
+  }
+
+  .subscribe h1 {
+    color: rgb(0, 0, 75);
+    font-size: 30px;
+    margin: 0px 5px;
+    margin-bottom: 10px;
+  }
+  .subscribe p {
+    margin: 5px;
+    font-size: 16px;
+  }
+  footer > p {
+    line-height: 1.5;
+    color: gray;
+  }
+
+  .footer_p:first-child {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .footer_p:nth-child(2) {
+    font-size: 10px;
+    color: rgb(208, 208, 208);
+    cursor: pointer;
+  }
+  .footer_p:last-child {
+    font-size: 8px;
+    margin: 0px 15px;
   }
 }
